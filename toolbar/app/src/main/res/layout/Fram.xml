@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#FFE64949"
+	android:gravity="center">
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="100dp"
+		android:background="#FFF6EDED">
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"/>
+
+		<ImageView
+			android:src="@android:drawable/ic_delete"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom|left|center"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Button"
+			android:layout_gravity="center"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom|right|center">
+
+			<ImageButton
+				android:src="@android:drawable/ic_menu_close_clear_cancel"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+
+			<ImageButton
+				android:src="@android:drawable/ic_menu_close_clear_cancel"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+
+		</LinearLayout>
+
+	</FrameLayout>
+
+</LinearLayout>
+

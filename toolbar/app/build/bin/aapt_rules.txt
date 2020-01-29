@@ -1,0 +1,9 @@
+# view res/layout/main.xml #generated:19
+-keep class simon.widget.view.BackArrowView { <init>(...); }
+
+# view res/layout/main.xml #generated:25
+-keep class simon.widget.view.BlurView { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class simon.widget.view.Toolbar { <init>(...); }
+
